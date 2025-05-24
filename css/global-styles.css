@@ -9,7 +9,9 @@
   /* Fonts */
   --font-main: 'font-main','sans-serif' !important;
   --font-title: 'font-title','sans-serif' !important;
-  --font-title-construction: 'font-construction-title','sans-serif' !important;
+  --font-title-links: 'font-construction-title','sans-serif' !important;
+
+  --shadow-links: 1px 1px 3px #D1A5F8;
 }
 
 @font-face {

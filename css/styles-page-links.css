@@ -1,0 +1,30 @@
+@import url(./global-styles.css);
+
+body {
+  background-color: #fff;
+}
+
+body::before {
+  content: "";
+  position: fixed; 
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../src/img/bg-page-links.jpg) !important;
+  background-position: center;
+  background-size: cover;
+  z-index: -1; /* Coloca el fondo detrás del contenido */
+}
+
+.img-links {
+  width: 50%;
+  border-radius: 50%;
+}
+
+.title-link {
+  font-family: var(--font-title-links);
+  color: var(--light);
+  text-shadow: var(--shadow-links);
+  font-size: 2.5rem;
+}
