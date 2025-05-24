@@ -9,9 +9,9 @@
   /* Fonts */
   --font-main: 'font-main','sans-serif' !important;
   --font-title: 'font-title','sans-serif' !important;
-  --font-title-links: 'font-construction-title','sans-serif' !important;
+  --font-title-links: 'font-link','sans-serif' !important;
 
-  --shadow-links: 1px 1px 3px #D1A5F8;
+  --shadow-links: 1px 1px 3px #c594f0;
 }
 
 @font-face {
@@ -20,7 +20,7 @@
 }
 
 @font-face {
-  font-family: 'font-construction-title';
+  font-family: 'font-link';
   src: url("../src/fonts/fredoka.ttf");
 }
 
