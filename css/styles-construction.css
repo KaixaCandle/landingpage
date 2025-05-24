@@ -1,0 +1,51 @@
+body {
+  background-color: var(--light);
+}
+
+.font-main {
+  font-family: var(--font-main);
+  font-size: 1.3rem;
+}
+
+.img-construction {
+  width: 90%;
+  max-width: 500px;
+}
+
+.btn-redes {
+  border: 2px solid var(--pink);
+  background: none;
+  border-radius: 30px;
+  width: 90%;
+  max-width: 220px;
+  height: 50px;
+  text-decoration: none;
+}
+
+.btn-icon {
+  height: 30px;
+  margin-right: 15px;
+}
+
+.btn-text {
+  font-family: var(--font-main);
+  font-size: 1.1rem;
+  margin: 0;
+  color: var(--dark);
+}
+
+@media (max-width: 800px) {
+
+  .font-main {
+    font-size: 1rem;
+  }
+
+  .btn-text {
+    font-size: .9rem;
+  }
+
+  .btn-redes {
+    height: 40px;
+  }
+
+}

@@ -1,0 +1,28 @@
+:root{
+  /* Colors */
+  --pink: #FFA5CE;
+  --blue: #CAEDFF;
+  --purple: #D8B4F8;
+  --light: #FFFCF9;
+  --dark: #101010;
+
+  /* Fonts */
+  --font-main: 'font-main','sans-serif' !important;
+  --font-title: 'font-title','sans-serif' !important;
+  --font-title-construction: 'font-construction-title','sans-serif' !important;
+}
+
+@font-face {
+  font-family: 'font-main';
+  src: url("../src/fonts/geologica.ttf");
+}
+
+@font-face {
+  font-family: 'font-construction-title';
+  src: url("../src/fonts/fredoka.ttf");
+}
+
+@font-face {
+  font-family: 'font-title';
+  src: url("../src/fonts/calistoga.ttf");
+}
