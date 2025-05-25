@@ -11,7 +11,7 @@ body::before {
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-image: url(../src/img/bg-page-links-2.jpg) !important;
+  background-image: url(../src/img/bg-links.jpg) !important;
   background-position: center;
   background-size: cover;
   z-index: -1; /* Coloca el fondo detrás del contenido */
