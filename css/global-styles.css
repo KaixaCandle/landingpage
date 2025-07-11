@@ -5,6 +5,9 @@
   --purple: #D8B4F8;
   --light: #FFFCF9;
   --dark: #101010;
+  --gray: #454545;
+
+  --light-opacity: #fffcfa80;
 
   /* Fonts */
   --font-main: 'font-main','sans-serif' !important;
@@ -27,4 +30,99 @@
 @font-face {
   font-family: 'font-title';
   src: url("../src/fonts/calistoga.ttf");
+}
+
+* {
+  font-family: var(--font-main);
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: var(--light);
+}
+
+.cta {
+  border: 2px solid var(--dark);
+  border-radius: 30px;
+  font-size: 1.2rem;
+  padding: 10px 0;
+  color: var(--dark);
+  text-decoration: none;
+  width: 100%;
+  max-width: 250px;
+  display: flex;
+  justify-content: center;
+}
+
+.titulos-secciones {
+  font-family: var(--font-title);
+  font-size: 2rem;
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+
+.subtitulo-secciones {
+  font-family: var(--font-main);
+  font-size: 1.5rem;
+  margin-top: 40px;
+}
+
+.marco-producto {
+  border: 1px solid var(--dark);
+  border-radius: 20px;
+  width: 100%;
+  padding: 15px;
+}
+
+.marco-producto img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.productos-titulo {
+  color: var(--dark);
+  font-size: 1.2rem;
+}
+
+.productos-precio {
+  color: var(--gray);
+  font-weight: 200;
+  font-size: 1rem;
+}
+
+.productos-icono {
+  color: var(--dark);
+  font-size: 1.2rem;
+}
+
+.footer {
+  background-color: var(--dark);
+}
+
+.footer-text {
+  color: var(--light);
+}
+
+.footer-icon {
+  color: var(--light);
+  font-size: 1.2rem;
+}
+
+@media (max-width: 800px) {
+
+  .cta {
+    font-size: 1rem;
+  }
+
+  .productos-titulo {
+    font-size: .9rem;
+  }
+
+  .subtitulo-secciones {
+  font-size: 1.2rem;
+}
+
 }

@@ -5,16 +5,76 @@
 }
 
 .logo {
-  height: 80px;
+  height: 60px;
 }
 
 .nav-link {
-  font-family: var(--font-main);
   font-size: 1rem;
-    color: var(--dark);
+  color: var(--dark);
 }
 
 .dropdown-item {
-  font-family: var(--font-main);
   color: var(--dark);
+}
+
+.barra-envios {
+  background-color: var(--dark);
+  padding: 12px 0px;
+}
+
+.text-envios {
+  color: var(--light);
+  font-size: 1rem;
+}
+
+.bg-banner {
+  background-image: url(../src/img/banner.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-mascara {
+  background-color: var(--light-opacity);
+  border: 1.5px solid var(--light);
+  padding: 20px;
+}
+
+.marco-light {
+  background-color: var(--light);
+}
+
+.marco {
+  width: 90%;
+  max-width: 550px;
+  padding: 25px 0;
+}
+
+.marco-titulo {
+  font-family: var(--font-title);
+  font-size: 2rem;
+}
+
+.marco-texto {
+  font-size: 1.2rem;
+}
+
+@media (max-width: 800px) {
+
+  .text-envios {
+    color: var(--light);
+    font-size: .8rem;
+  }
+
+  .marco-titulo {
+    font-size: 1.5rem;
+  }
+
+  .marco-texto {
+    font-size: 1rem;
+  }
+
 }
