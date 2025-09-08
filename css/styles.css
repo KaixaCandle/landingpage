@@ -62,6 +62,11 @@
   font-size: 1.2rem;
 }
 
+.img-producto img {
+  width: 100%;
+  border-radius: 20px;
+}
+
 @media (max-width: 800px) {
 
   .text-envios {

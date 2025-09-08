@@ -34,6 +34,7 @@
 
 * {
   font-family: var(--font-main);
+  font-weight: 200 !important;
 }
 
 a {
@@ -42,6 +43,8 @@ a {
 
 body {
   background-color: var(--light);
+  position: relative;
+  height: 100%;
 }
 
 .cta {
@@ -85,6 +88,11 @@ body {
 .productos-titulo {
   color: var(--dark);
   font-size: 1.2rem;
+  font-weight: 400 !important;
+}
+
+.bold-text {
+  font-weight: 400 !important;
 }
 
 .productos-precio {
@@ -102,6 +110,11 @@ body {
   background-color: var(--dark);
 }
 
+.footer--md {
+  position: absolute;
+  bottom: 0;
+}
+
 .footer-text {
   color: var(--light);
 }
@@ -109,6 +122,14 @@ body {
 .footer-icon {
   color: var(--light);
   font-size: 1.2rem;
+}
+
+@media (max-width: 1000px) {
+
+  .footer--md {
+    position: static;
+  }
+
 }
 
 @media (max-width: 800px) {
