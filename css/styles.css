@@ -28,23 +28,8 @@
 }
 
 .bg-banner {
-  background-image: url(../src/img/banner-diademuertos.jpg);
-  background-position: center;
-  background-size: cover;
+  object-fit: cover;
   height: 80vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.bg-mascara {
-  background-color: var(--light-opacity);
-  border: 1.5px solid var(--light);
-  padding: 20px;
-}
-
-.marco-light {
-  background-color: var(--light);
 }
 
 .marco {
@@ -60,6 +45,15 @@
 
 .marco-texto {
   font-size: 1.2rem;
+}
+
+.carousel-caption {
+  position: absolute;
+  right: 15% !important;
+  bottom: 15% !important;
+  top: 15% !important;
+  left: 15% !important;
+  filter: drop-shadow(1px 1px 1px #000000);
 }
 
 .img-producto img {

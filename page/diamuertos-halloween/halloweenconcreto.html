@@ -42,7 +42,7 @@
 
 </head>
 
-<body>
+<body class="d-flex flex-column min-vh-100">
 
   <!-- Menú -->
   <nav class="navbar navbar-expand-lg p-0">
@@ -69,7 +69,7 @@
               <li><a class="dropdown-item" href="../diamuertos-halloween/halloweenconcreto.html">Halloween Concreto</a></li>
               <li><a class="dropdown-item" href="../diamuertos-halloween/velashalloween.html">Velas Halloween</a></li>
               <li><a class="dropdown-item" href="../diamuertos-halloween/velasdiamuertos.html">Velas Día de Muertos</a></li>
-              <li><a class="dropdown-item" href="">Navidad Concreto</a></li>
+              <li><a class="dropdown-item" href="../navidad/navidadconcreto.html">Navidad Concreto</a></li>
             </ul>
           </li>
         </ul>
@@ -77,189 +77,200 @@
     </div>
   </nav>
 
-  <!-- Mensaje importante -->
-  <div class="container-fluid barra-envios text-center">
-    <h5 class="text-envios m-0 p-0">Envíos a toda la Republica Mexicana desde $150 MXN</h5>
-  </div>
-
-  <!-- Productos para evento -->
-  <div class="container-fluid mb-5">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <h2 class="titulos-secciones text-center">Halloween Concreto</h2>
+  <div class="main flex-fill">
+    <!-- Mensaje importante -->
+    <div class="container-fluid barra-envios text-center">
+      <h5 class="text-envios m-0 p-0">Envíos a toda la Republica Mexicana desde $150 MXN</h5>
+    </div>
+  
+    <!-- Productos para evento -->
+    <div class="container-fluid mb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="titulos-secciones text-center">Halloween Concreto</h2>
+          </div>
         </div>
       </div>
-    </div>
-
-    <!-- Submenu - opciones -->
-    <div class="container">
-      <ul class="nav nav-tabs mt-4 d-flex justify-content-center" id="myTab" role="tablist">
-        <li class="nav-item" role="presentation">
-          <button class="nav-link active" id="velas-decorativas-tab" data-bs-toggle="tab"
-            data-bs-target="#velas-decorativas" type="button" role="tab" aria-controls="velas-decorativas"
-            aria-selected="true">Contenedores</button>
-        </li>
-        <li class="nav-item" role="presentation">
-          <button class="nav-link" id="velas-concreto-tab" data-bs-toggle="tab" data-bs-target="#velas-concreto"
-            type="button" role="tab" aria-controls="velas-concreto" aria-selected="false">Decoración</button>
-        </li>
-        <!-- <li class="nav-item" role="presentation">
-          <button class="nav-link" id="velas-frasco-tab" data-bs-toggle="tab" data-bs-target="#velas-frasco" type="button"
-            role="tab" aria-controls="velas-frasco" aria-selected="false">Frasco</button>
-        </li> -->
-      </ul>
-    </div>
-    
-    <!-- Contenido - opciones -->
-    <div class="container">
-      <div class="tab-content" id="myTabContent">
-
-        <!-- Categoria - Velas decorativas-->
-        <div class="tab-pane fade show active" id="velas-decorativas" role="tabpanel"
-          aria-labelledby="velas-decorativas-tab" tabindex="0">
-          <!-- Titulo -->
-          <div class="row">
-            <div class="col-md-12">
-              <h2 class="subtitulo-secciones">Contenedores de Halloween</h2>
+  
+      <!-- Submenu - opciones -->
+      <div class="container">
+        <ul class="nav nav-tabs mt-4 d-flex justify-content-center" id="myTab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="velas-decorativas-tab" data-bs-toggle="tab"
+              data-bs-target="#velas-decorativas" type="button" role="tab" aria-controls="velas-decorativas"
+              aria-selected="true">Contenedores</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="velas-concreto-tab" data-bs-toggle="tab" data-bs-target="#velas-concreto"
+              type="button" role="tab" aria-controls="velas-concreto" aria-selected="false">Decoración</button>
+          </li>
+          <!-- <li class="nav-item" role="presentation">
+            <button class="nav-link" id="velas-frasco-tab" data-bs-toggle="tab" data-bs-target="#velas-frasco" type="button"
+              role="tab" aria-controls="velas-frasco" aria-selected="false">Frasco</button>
+          </li> -->
+        </ul>
+      </div>
+  
+      <!-- Contenido - opciones -->
+      <div class="container">
+        <div class="tab-content" id="myTabContent">
+  
+          <!-- Categoria - Velas decorativas-->
+          <div class="tab-pane fade show active" id="velas-decorativas" role="tabpanel"
+            aria-labelledby="velas-decorativas-tab" tabindex="0">
+            <!-- Titulo -->
+            <div class="row">
+              <div class="col-md-12">
+                <h2 class="subtitulo-secciones">Contenedores de Halloween</h2>
+              </div>
+            </div>
+            <!-- Productos -->
+            <div class="row">
+  
+              <div class="col-lg-3 col-6 mt-4">
+                <a href="./productos/calavera.html">
+                  <div class="marco-producto">
+                    <img src="../../src/img/DiaMuertos-Halloween/calavera-concreto.jpg"
+                      alt="contenedor de concreto en forma de craneo">
+                  </div>
+                  <div class="text-center mt-3">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <h5 class="m-0 productos-titulo me-2">Calavera</h5>
+                      <i class="bi bi-arrow-right-short productos-icono"></i>
+                    </div>
+                    <h5 class="m-0 productos-precio me-2 mt-2">$75.00 MXN</h5>
+                  </div>
+                </a>
+              </div>
+  
+              <div class="col-lg-3 col-6 mt-4">
+                <a href="./productos/fantasma.html">
+                  <div class="marco-producto">
+                    <img src="../../src/img/DiaMuertos-Halloween/fantasma-concreto.jpg"
+                      alt="contenedor de concreto en forma de craneo">
+                  </div>
+                  <div class="text-center mt-3">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <h5 class="m-0 productos-titulo me-2">Fantasma</h5>
+                      <i class="bi bi-arrow-right-short productos-icono"></i>
+                    </div>
+                    <h5 class="m-0 productos-precio me-2 mt-2">$100.00 MXN</h5>
+                  </div>
+                </a>
+              </div>
+  
+              <div class="col-lg-3 col-6 mt-4">
+                <a href="./productos/arania.html">
+                  <div class="marco-producto">
+                    <img src="../../src/img/DiaMuertos-Halloween/arania.jpg"
+                      alt="contenedor de concreto en forma de craneo">
+                  </div>
+                  <div class="text-center mt-3">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <h5 class="m-0 productos-titulo me-2">Araña</h5>
+                      <i class="bi bi-arrow-right-short productos-icono"></i>
+                    </div>
+                    <h5 class="m-0 productos-precio me-2 mt-2">$30.00 MXN</h5>
+                  </div>
+                </a>
+              </div>
+  
+              <div class="col-lg-3 col-6 mt-4">
+                <a href="./productos/calabazahoja.html">
+                  <div class="marco-producto">
+                    <img src="../../src/img/DiaMuertos-Halloween/calabaza-hoja.jpg"
+                      alt="contenedor de concreto en forma de craneo">
+                  </div>
+                  <div class="text-center mt-3">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <h5 class="m-0 productos-titulo me-2">Calabaza c/hoja</h5>
+                      <i class="bi bi-arrow-right-short productos-icono"></i>
+                    </div>
+                    <h5 class="m-0 productos-precio me-2 mt-2">$85.00 MXN</h5>
+                  </div>
+                </a>
+              </div>
+  
+              <div class="col-lg-3 col-6 mt-4">
+                <a href="./productos/calabaza.html">
+                  <div class="marco-producto">
+                    <img src="../../src/img/DiaMuertos-Halloween/calabaza.jpg"
+                      alt="contenedor de concreto en forma de craneo">
+                  </div>
+                  <div class="text-center mt-3">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <h5 class="m-0 productos-titulo me-2">Calabaza</h5>
+                      <i class="bi bi-arrow-right-short productos-icono"></i>
+                    </div>
+                    <h5 class="m-0 productos-precio me-2 mt-2">$85.00 MXN</h5>
+                  </div>
+                </a>
+              </div>
+  
+              <div class="col-lg-3 col-6 mt-4">
+                <a href="./productos/caldero.html">
+                  <div class="marco-producto">
+                    <img src="../../src/img/DiaMuertos-Halloween/caldero.jpg"
+                      alt="contenedor de concreto en forma de craneo">
+                  </div>
+                  <div class="text-center mt-3">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <h5 class="m-0 productos-titulo me-2">Caldero</h5>
+                      <i class="bi bi-arrow-right-short productos-icono"></i>
+                    </div>
+                    <h5 class="m-0 productos-precio me-2 mt-2">$85.00 MXN</h5>
+                  </div>
+                </a>
+              </div>
             </div>
           </div>
-          <!-- Productos -->
-          <div class="row">
-          
-            <div class="col-lg-3 col-6 mt-4">
-              <a href="./productos/calavera.html">
-                <div class="marco-producto">
-                  <img src="../../src/img/DiaMuertos-Halloween/calavera-concreto.jpg" alt="contenedor de concreto en forma de craneo">
-                </div>
-                <div class="text-center mt-3">
-                  <div class="d-flex justify-content-center align-items-center">
-                    <h5 class="m-0 productos-titulo me-2">Calavera</h5>
-                    <i class="bi bi-arrow-right-short productos-icono"></i>
+  
+          <!-- Categoria - Velas en concreto-->
+          <div class="tab-pane fade" id="velas-concreto" role="tabpanel" aria-labelledby="velas-concreto-tab"
+            tabindex="0">
+            <!-- Titulo -->
+            <div class="row">
+              <div class="col-md-12">
+                <h2 class="subtitulo-secciones">Decoración de Halloween</h2>
+              </div>
+            </div>
+            <!-- Productos -->
+            <div class="row">
+  
+              <div class="col-lg-3 col-6 mt-4">
+                <a href="./productos/gatodemonio.html">
+                  <div class="marco-producto">
+                    <img src="../../src/img/DiaMuertos-Halloween/gatodemonio.jpg"
+                      alt="contenedor de concreto en forma de craneo">
                   </div>
-                  <h5 class="m-0 productos-precio me-2 mt-2">$75.00 MXN</h5>
-                </div>
-              </a>
-            </div>
-
-            <div class="col-lg-3 col-6 mt-4">
-              <a href="./productos/fantasma.html">
-                <div class="marco-producto">
-                  <img src="../../src/img/DiaMuertos-Halloween/fantasma-concreto.jpg" alt="contenedor de concreto en forma de craneo">
-                </div>
-                <div class="text-center mt-3">
-                  <div class="d-flex justify-content-center align-items-center">
-                    <h5 class="m-0 productos-titulo me-2">Fantasma</h5>
-                    <i class="bi bi-arrow-right-short productos-icono"></i>
+                  <div class="text-center mt-3">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <h5 class="m-0 productos-titulo me-2">Gato Demonio</h5>
+                      <i class="bi bi-arrow-right-short productos-icono"></i>
+                    </div>
+                    <h5 class="m-0 productos-precio me-2 mt-2">$75.00 MXN</h5>
                   </div>
-                  <h5 class="m-0 productos-precio me-2 mt-2">$100.00 MXN</h5>
-                </div>
-              </a>
-            </div>
-
-            <div class="col-lg-3 col-6 mt-4">
-              <a href="./productos/arania.html">
-                <div class="marco-producto">
-                  <img src="../../src/img/DiaMuertos-Halloween/arania.jpg" alt="contenedor de concreto en forma de craneo">
-                </div>
-                <div class="text-center mt-3">
-                  <div class="d-flex justify-content-center align-items-center">
-                    <h5 class="m-0 productos-titulo me-2">Araña</h5>
-                    <i class="bi bi-arrow-right-short productos-icono"></i>
+                </a>
+              </div>
+  
+              <div class="col-lg-3 col-6 mt-4">
+                <a href="./productos/gatobrujo.html">
+                  <div class="marco-producto">
+                    <img src="../../src/img/DiaMuertos-Halloween/gatobrujo.jpg"
+                      alt="contenedor de concreto en forma de craneo">
                   </div>
-                  <h5 class="m-0 productos-precio me-2 mt-2">$30.00 MXN</h5>
-                </div>
-              </a>
-            </div>
-
-            <div class="col-lg-3 col-6 mt-4">
-              <a href="./productos/calabazahoja.html">
-                <div class="marco-producto">
-                  <img src="../../src/img/DiaMuertos-Halloween/calabaza-hoja.jpg" alt="contenedor de concreto en forma de craneo">
-                </div>
-                <div class="text-center mt-3">
-                  <div class="d-flex justify-content-center align-items-center">
-                    <h5 class="m-0 productos-titulo me-2">Calabaza c/hoja</h5>
-                    <i class="bi bi-arrow-right-short productos-icono"></i>
+                  <div class="text-center mt-3">
+                    <div class="d-flex justify-content-center align-items-center">
+                      <h5 class="m-0 productos-titulo me-2">Gato Brujo</h5>
+                      <i class="bi bi-arrow-right-short productos-icono"></i>
+                    </div>
+                    <h5 class="m-0 productos-precio me-2 mt-2">$75.00 MXN</h5>
                   </div>
-                  <h5 class="m-0 productos-precio me-2 mt-2">$85.00 MXN</h5>
-                </div>
-              </a>
+                </a>
+              </div>
+  
             </div>
-
-            <div class="col-lg-3 col-6 mt-4">
-              <a href="./productos/calabaza.html">
-                <div class="marco-producto">
-                  <img src="../../src/img/DiaMuertos-Halloween/calabaza.jpg" alt="contenedor de concreto en forma de craneo">
-                </div>
-                <div class="text-center mt-3">
-                  <div class="d-flex justify-content-center align-items-center">
-                    <h5 class="m-0 productos-titulo me-2">Calabaza</h5>
-                    <i class="bi bi-arrow-right-short productos-icono"></i>
-                  </div>
-                  <h5 class="m-0 productos-precio me-2 mt-2">$85.00 MXN</h5>
-                </div>
-              </a>
-            </div>
-
-            <div class="col-lg-3 col-6 mt-4">
-              <a href="./productos/caldero.html">
-                <div class="marco-producto">
-                  <img src="../../src/img/DiaMuertos-Halloween/caldero.jpg" alt="contenedor de concreto en forma de craneo">
-                </div>
-                <div class="text-center mt-3">
-                  <div class="d-flex justify-content-center align-items-center">
-                    <h5 class="m-0 productos-titulo me-2">Caldero</h5>
-                    <i class="bi bi-arrow-right-short productos-icono"></i>
-                  </div>
-                  <h5 class="m-0 productos-precio me-2 mt-2">$85.00 MXN</h5>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Categoria - Velas en concreto-->
-        <div class="tab-pane fade" id="velas-concreto" role="tabpanel" aria-labelledby="velas-concreto-tab" tabindex="0">
-          <!-- Titulo -->
-          <div class="row">
-            <div class="col-md-12">
-              <h2 class="subtitulo-secciones">Decoración de Halloween</h2>
-            </div>
-          </div>
-          <!-- Productos -->
-          <div class="row">
-          
-            <div class="col-lg-3 col-6 mt-4">
-              <a href="./productos/gatodemonio.html">
-                <div class="marco-producto">
-                  <img src="../../src/img/DiaMuertos-Halloween/gatodemonio.jpg" alt="contenedor de concreto en forma de craneo">
-                </div>
-                <div class="text-center mt-3">
-                  <div class="d-flex justify-content-center align-items-center">
-                    <h5 class="m-0 productos-titulo me-2">Gato Demonio</h5>
-                    <i class="bi bi-arrow-right-short productos-icono"></i>
-                  </div>
-                  <h5 class="m-0 productos-precio me-2 mt-2">$75.00 MXN</h5>
-                </div>
-              </a>
-            </div>
-
-            <div class="col-lg-3 col-6 mt-4">
-              <a href="./productos/gatobrujo.html">
-                <div class="marco-producto">
-                  <img src="../../src/img/DiaMuertos-Halloween/gatobrujo.jpg" alt="contenedor de concreto en forma de craneo">
-                </div>
-                <div class="text-center mt-3">
-                  <div class="d-flex justify-content-center align-items-center">
-                    <h5 class="m-0 productos-titulo me-2">Gato Brujo</h5>
-                    <i class="bi bi-arrow-right-short productos-icono"></i>
-                  </div>
-                  <h5 class="m-0 productos-precio me-2 mt-2">$75.00 MXN</h5>
-                </div>
-              </a>
-            </div>
-
           </div>
         </div>
       </div>

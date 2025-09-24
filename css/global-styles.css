@@ -68,6 +68,15 @@ body {
   border: 2px solid var(--dark);
 }
 
+.cta--modif {
+  border: 2px solid var(--light);
+  color: var(--light);
+}
+
+.cta--modif:hover {
+  border: 2px solid var(--light);
+}
+
 .titulos-secciones {
   font-family: var(--font-title);
   font-size: 2rem;
