@@ -1,4 +1,4 @@
-@import url(./global-styles.css);
+@import url(./global-styles.css?v=2);
 
 .navbar {
   background-color: var(--light);
